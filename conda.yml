@@ -1,0 +1,43 @@
+name: hn_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.9
+  - pandas=1.1.5
+  - numpy=1.19.5
+  - pip=21.1.3
+  - pip:
+    - azureml-sdk==1.36.0
+    - snowflake-connector-python==2.7.2
+    - azure-identity==1.7.0
+    - azureml-defaults==1.36.0
+    - azureml-pipeline==1.36.0
+    - sqlalchemy==1.4.27
+    - snowflake-sqlalchemy==1.3.3
+    - ipykernel==5.5.6
+    - opencensus==0.8.0
+    - opencensus-ext-azure==1.0.8
+    - fuzzywuzzy==0.18.0
+    - scikit-learn==0.24.2
+    - Django==3.2.11
+    - scipy==1.4.1
+    - tensorflow==2.1.0
+    - xgboost==0.90
+    - PyYaml==6.0
+    - seaborn==0.11.2
+    - python-dotenv==0.18.0
+    - recordlinkage==0.14
+    - optuna==3.0.0a0
+    - lightgbm==3.3.2
+    - pyjanitor==0.22.0
+    - imbalanced-learn==0.7.0
+    - hyperopt==0.2.7
+    - mlflow==1.22.0
+    # - azureml-mlflow==1.38.0
+    - azureml-mlflow==1.36.0
+    - python-Levenshtein==0.12.2
+    # - pyarrow==6.0.1
+    - joblib==1.1.0
+    - great_expectations==0.13.46
+    - azure-storage-blob==12.9.0
